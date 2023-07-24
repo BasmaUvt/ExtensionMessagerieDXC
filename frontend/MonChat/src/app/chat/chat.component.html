@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let message of messages">{{ message }}</li>
+  </ul>
+  
+  <form (submit)="sendMessage(input.value); input.value = ''">
+    <input #input type="text" placeholder="Tapez votre message ici...">
+    <button type="submit">Envoyer</button>
+  </form>

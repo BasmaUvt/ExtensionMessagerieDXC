@@ -1,0 +1,45 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+  }
+  
+  .message {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+  }
+  
+  .message:not(.incoming) {
+    background-color: #007bff;
+    color: #d9d9d9;
+    float: right;
+    clear: both;
+  }
+  
+  .incoming {
+    background-color: #e9ecef;
+    color: black;
+    float: left;
+    clear: both;
+  }
+  #logoutButton {
+    background-color: grey !important;
+    border-color: grey !important; /* Si vous voulez changer la couleur de la bordure aussi */
+}
+.btn.btn-primary {
+  background-color: rgb(210, 85, 183) !important;
+  border-color: rgb(210, 85, 183) !important;
+}
